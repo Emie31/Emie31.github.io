@@ -24,7 +24,7 @@
 
 
 html, body {height:100%;margin:0;}
-#GrandeIntro {height:70%;background:url(../images/image_top.jpg) no-repeat;background-size:cover;}
+#GrandeIntro {height:30%;background:url(../images/image_top.jpg);background-size:cover;}
 /*#siteWrapper {margin-top:-1px;}
 */
 #siteWrapper header { height:1px;background:#000;}
@@ -36,7 +36,7 @@ html, body {height:100%;margin:0;}
 	position:fixed;
 	width:100%;
 	top:0;left:0;
-	offset-height:100;
+	offset-height:30;
 }
 
 body {
@@ -75,8 +75,7 @@ nav li a:hover, nav li a:focus, nav li.selected a, nav li.selected a:hover, nav 
 }
 
 body{
-	background: #222;
-	background-image: url('../images/background.jpg');
+	background: #121212;
 }
 
 #menu-responsiv{
@@ -84,14 +83,13 @@ body{
 	text-align: center;
 }
 .intro{
-	margin-top: 10%;
-	width: 80%;
-	margin-bottom: 10%;
+	margin-top: 2%;
+	width: 60%;
+	margin-bottom: 20%;
 }
 
 .id_pic {
 	width:80%; 
-	border:3px #FFF solid;
 /*	-moz-box-shadow: 1px 1px 3px #4c4c4d; // Firefox 
     	-webkit-box-shadow: 1px 1px 3px #4c4c4d; // Safari, Chrome 
    	box-shadow: 1px 1px 1px 3px #4c4c4d; CSS3 */
@@ -103,17 +101,22 @@ p {
 #main p {
 	color:f4f5f6;
 }
-
+.section-title {
+	font-size:2.5em;
+	font-family: 'aleobold';
+	padding-top: 5%;
+	color:#59a4c6
+}
 .tLarge {
 	font-size:3em;
-	font-family: 'aleoregular';
+	font-family: 'aleobold';
 }
 .tmid {
 	font-size:2em;
 	font-family: 'aleoregular';
 }
 .tlittle {
-	font-size:1.5em;
+	font-size:1.0em;
 }
 
 
@@ -260,9 +263,9 @@ td {
 .icon-emilie:before {
 	content: "\e606";
 }
-.icon-publications:before {
+/* .icon-publications:before {
 	content: "\e607";
-}
+} */
 .icon-home:before {
 	content: "\e608";
 }
@@ -321,7 +324,7 @@ td {
 }
 
 .publications{
-	padding-top: 3%;
+	padding-top: 5%;
 	padding-bottom: 3%;
 	width:85%;
 }
